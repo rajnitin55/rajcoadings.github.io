@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 105vh;
+  width: 100%;
+  background: url(13.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: .9;
+
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  color: white;
+  
+  
+}
+
+.box h2 {
+  font-size: 5vh;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: rgb(6, 21, 105) 5px 2px 1px;
+  
+  
+
+
+}
+
+.main {
+  /* border: 1px solid rgb(22, 21, 18); */
+  height: 77vh;
+  width: 100%;
+  
+
+
+}
+
+.row1 {
+  /* border: 2px solid yellow; */
+  height: 10vh;
+  width: 100%;
+  justify-content: center;
+
+
+}
+
+.row1 h2 {
+  font-size: 4vh;
+  font-family: Cambria;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(71, 17, 170, 0.555);
+
+
+}
+
+.row2 {
+  /* border: 1px solid whitesmoke; */
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+
+}
+
+.bride {
+
+  /* border: 1px solid black; */
+  height: 35vh;
+  width: 50%;
+  color: black;
+  text-shadow: 0 4px 4px rgb(212, 36, 36);
+}
+.bride h2{
+  text-align: left;
+  
+}
+.bride h2 span{
+  font-family: arial;
+}
+
+.groom {
+  /* border: 1px solid black; */
+  height: 35vh;
+  width: 50%;
+  color: black;
+  text-shadow: 0 4px 4px rgb(212, 36, 36);
+}
+bride h2{
+  text-align: left;
+}
+.groom h2 span{
+  font-family: arial;
+}
+
